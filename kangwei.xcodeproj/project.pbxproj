@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		300550732393FE600029BC49 /* CircleChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300550722393FE600029BC49 /* CircleChart.swift */; };
 		30E7104C239243B70076EE93 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E7104B239243B70076EE93 /* AppDelegate.swift */; };
 		30E7104E239243B70076EE93 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E7104D239243B70076EE93 /* SceneDelegate.swift */; };
 		30E71050239243B70076EE93 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E7104F239243B70076EE93 /* ContentView.swift */; };
@@ -15,6 +16,10 @@
 		30E71058239243B90076EE93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30E71056239243B90076EE93 /* LaunchScreen.storyboard */; };
 		30E71063239243B90076EE93 /* kangweiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E71062239243B90076EE93 /* kangweiTests.swift */; };
 		30E7106E239243B90076EE93 /* kangweiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E7106D239243B90076EE93 /* kangweiUITests.swift */; };
+		30E7107C239245B60076EE93 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E7107B239245B60076EE93 /* Data.swift */; };
+		30E7107E23924A910076EE93 /* EventRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E7107D23924A910076EE93 /* EventRow.swift */; };
+		30E7108023925F560076EE93 /* EventEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E7107F23925F560076EE93 /* EventEditor.swift */; };
+		30E71082239380B10076EE93 /* PieChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E71081239380B10076EE93 /* PieChart.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		300550722393FE600029BC49 /* CircleChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleChart.swift; sourceTree = "<group>"; };
 		30E71048239243B70076EE93 /* kangwei.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kangwei.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30E7104B239243B70076EE93 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		30E7104D239243B70076EE93 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +55,10 @@
 		30E71069239243B90076EE93 /* kangweiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kangweiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		30E7106D239243B90076EE93 /* kangweiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kangweiUITests.swift; sourceTree = "<group>"; };
 		30E7106F239243B90076EE93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30E7107B239245B60076EE93 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		30E7107D23924A910076EE93 /* EventRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventRow.swift; sourceTree = "<group>"; };
+		30E7107F23925F560076EE93 /* EventEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventEditor.swift; sourceTree = "<group>"; };
+		30E71081239380B10076EE93 /* PieChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieChart.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +112,11 @@
 				30E7104B239243B70076EE93 /* AppDelegate.swift */,
 				30E7104D239243B70076EE93 /* SceneDelegate.swift */,
 				30E7104F239243B70076EE93 /* ContentView.swift */,
+				30E71081239380B10076EE93 /* PieChart.swift */,
+				30E7107F23925F560076EE93 /* EventEditor.swift */,
+				30E7107D23924A910076EE93 /* EventRow.swift */,
+				300550722393FE600029BC49 /* CircleChart.swift */,
+				30E7107B239245B60076EE93 /* Data.swift */,
 				30E71051239243B90076EE93 /* Assets.xcassets */,
 				30E71056239243B90076EE93 /* LaunchScreen.storyboard */,
 				30E71059239243B90076EE93 /* Info.plist */,
@@ -267,9 +282,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				300550732393FE600029BC49 /* CircleChart.swift in Sources */,
 				30E7104C239243B70076EE93 /* AppDelegate.swift in Sources */,
 				30E7104E239243B70076EE93 /* SceneDelegate.swift in Sources */,
+				30E7107E23924A910076EE93 /* EventRow.swift in Sources */,
+				30E71082239380B10076EE93 /* PieChart.swift in Sources */,
 				30E71050239243B70076EE93 /* ContentView.swift in Sources */,
+				30E7107C239245B60076EE93 /* Data.swift in Sources */,
+				30E7108023925F560076EE93 /* EventEditor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,6 +459,7 @@
 				DEVELOPMENT_TEAM = VJK4963KWX;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = kangwei/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -459,6 +480,7 @@
 				DEVELOPMENT_TEAM = VJK4963KWX;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = kangwei/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -474,7 +496,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VJK4963KWX;
 				INFOPLIST_FILE = kangweiTests/Info.plist;
@@ -496,7 +517,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VJK4963KWX;
 				INFOPLIST_FILE = kangweiTests/Info.plist;
