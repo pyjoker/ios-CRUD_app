@@ -12,7 +12,10 @@ struct Event:Identifiable, Codable{
     var id = UUID()
     var type:String
     var time:Int
+    var hours:Int
+    var mins:Int
     var notice:String
+    var name:String
 }
 
 class EventsData: ObservableObject{

@@ -12,7 +12,7 @@ struct CircleChart: View {
     var eventsData : EventsData
     var percentages : [Double]
     var degree : [CGFloat]
-    var types = ["睡覺","吃飯","運動","上班","上課","休閒","約會"]
+    var types = ["金融","電子","傳產","指數","生技醫療","觀光","運輸"]
     var colors : [Color]
     var totalTime : Int = 0
     init(eventsData : EventsData){
@@ -47,7 +47,7 @@ struct CircleChart: View {
             ForEach(degree.indices){ (index) in
                 circleView(index:index,degree:self.degree,colors: self.colors)
             }
-            Text("total time : \(totalTime/60)小時 \(totalTime%60)分鐘")
+            Text("total spend : \(totalTime)元")
                 .fontWeight(.bold)
                 .foregroundColor(Color(red: 255, green: 200, blue: 0.0, opacity: 1.0))
         }.frame(width :250,height: 250)

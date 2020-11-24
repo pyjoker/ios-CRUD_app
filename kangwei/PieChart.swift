@@ -25,7 +25,7 @@ struct PieChart: View {
     var eventsData : EventsData
     var percentages : [Double]
     var angles : [Angle]
-    var types = ["睡覺","吃飯","運動","上班","上課","休閒","約會"]
+    var types = ["金融","電子","傳產","指數","生技醫療","觀光","運輸"]
     var colors :[Color]
     
     init(eventsData : EventsData){

@@ -35,7 +35,7 @@ struct ContentView: View {
                         self.eventsData.events.move(fromOffsets: indexSet,
                                         toOffset: index)
                     }
-                }.navigationBarTitle("我的一天")
+                }.navigationBarTitle("股票列表")
                     .navigationBarItems(leading: EditButton(),trailing: Button(action:{self.showEdit = true},label:{Image(systemName:"plus.circle.fill")}))
                     .sheet(isPresented: $showEdit){NavigationView{EventEditor(eventsData: self.eventsData)}
                 }
